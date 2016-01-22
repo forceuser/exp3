@@ -5,7 +5,8 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "test": "xo && nyc ava test/**/*.js"
+    "test": "xo && nyc ava test/**/*.js",
+    "test:visual":"xo && nyc report --reporter=html ava test/**/*.js"
   },
   "xo": {
     "esnext": true
