@@ -1,5 +1,6 @@
 const test = require('ava');
+const f = require('../index');
 
 test('test1', t => {
-	t.pass('passed!');
+	t.is(f(), true);
 });
