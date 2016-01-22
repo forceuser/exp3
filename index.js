@@ -1,3 +1,7 @@
-module.exports = function () {
-	return true;
+module.exports = function (arg) {
+	if (arg) {
+		return true;
+	}
+
+	return false;
 };
