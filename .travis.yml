@@ -9,3 +9,6 @@ cache:
     
 before_install:
   - 'npm i -g npm@latest'
+  
+after_success:
+  - './node_modules/.bin/nyc report --reporter=text-lcov | ./node_modules/.bin/coveralls'

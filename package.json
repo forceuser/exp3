@@ -1,34 +1,34 @@
 {
-	"name": "exp3",
-	"version": "1.0.0",
-	"description": "experiment/experience/exploration",
-	"main": "index.js",
-	"private": true,
-	"scripts": {
-		"test": "xo && ava test/**/*.js",
-		"coverage": "nyc npm test"
-	},
-	"xo": {
-		"esnext": true
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/forceuser/exp3.git"
-	},
-	"keywords": [
-		"experiment",
-		"experience",
-		"exploration"
-	],
-	"author": "forceuser",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/forceuser/exp3/issues"
-	},
-	"homepage": "https://github.com/forceuser/exp3#readme",
-	"devDependencies": {
-		"ava": "^0.10.0",
-		"nyc": "^5.3.0",
-		"xo": "^0.12.1"
-	}
+  "name": "exp3",
+  "version": "1.0.0",
+  "description": "experiment/experience/exploration",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "xo && nyc ava test/**/*.js"
+  },
+  "xo": {
+    "esnext": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forceuser/exp3.git"
+  },
+  "keywords": [
+    "experiment",
+    "experience",
+    "exploration"
+  ],
+  "author": "forceuser",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/forceuser/exp3/issues"
+  },
+  "homepage": "https://github.com/forceuser/exp3#readme",
+  "devDependencies": {
+    "ava": "^0.10.0",
+    "coveralls": "^2.11.6",
+    "nyc": "^5.3.0",
+    "xo": "^0.12.1"
+  }
 }
