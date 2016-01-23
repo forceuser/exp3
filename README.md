@@ -5,7 +5,7 @@
 [![dependency Status](https://david-dm.org/forceuser/exp3.svg)](https://david-dm.org/forceuser/exp3)
 [![devDependency Status](https://david-dm.org/forceuser/exp3/dev-status.svg)](https://david-dm.org/forceuser/exp3#info=devDependencies)
 [![Open in IDE](https://img.shields.io/badge/c9.io-edit-2196F3.svg)](https://ide.c9.io/forceuserz/exp3)
-![Version Status](https://img.shields.io/badge/version-1.0.1-blue.svg)
+![Version Status](https://img.shields.io/github/tag/forceuser/exp3.svg)
 
 experiment/experience/exploration
 
