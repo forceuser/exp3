@@ -6,7 +6,8 @@
   "private": true,
   "scripts": {
     "test": "xo && nyc ava test/**/*.js",
-    "test:visual":"xo && nyc report --reporter=html ava test/**/*.js"
+    "test:visual": "xo && nyc report --reporter=html ava test/**/*.js",
+    "doc": "documentation moduleInfo.js -f md | install -D /dev/stdin docs/moduleInfo.md"
   },
   "xo": {
     "esnext": true
@@ -29,6 +30,7 @@
   "devDependencies": {
     "ava": "^0.10.0",
     "coveralls": "^2.11.6",
+    "documentation": "^3.0.4",
     "nyc": "^5.3.0",
     "xo": "^0.12.1"
   },
