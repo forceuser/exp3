@@ -6,7 +6,7 @@ exports.format = format;
  * @param {ModuleInfo} moduleInfo - обьект содержащий информацию о модуле
  * @returns {string} строка в rest совместимом формате содержащую информацию о модуле
  */
-function format(moduleInfo) {
+function format() {
 
 }
 
@@ -15,6 +15,6 @@ function format(moduleInfo) {
  * @param {string} str - строка в rest совместимом формате содержащая информацию о модуле
  * @returns {ModuleInfo} обьект содержащий информацию о модуле
  */
-function parse(str) {
-	//'~parent/subfolder/~child/subfolder'
+function parse() {
+	// '~parent/subfolder/~child/subfolder'
 }
